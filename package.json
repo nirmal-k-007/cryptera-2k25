@@ -24,7 +24,8 @@
     "react-icons": "^4.7.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.0",
+    "homepage": "https://nirmal-k-007.github.io/cryptera-2k25"
   },
   "scripts": {
     "start": "react-scripts start",
