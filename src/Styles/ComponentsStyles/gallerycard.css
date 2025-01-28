@@ -1,0 +1,60 @@
+/* gallerycard.css */
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100%;
+    /* Adjust the height as needed */
+}
+
+.gallery-container-img {
+    width: 100%;
+    height: 70%;
+    /* Adjust the percentage based on your design */
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.gallery-container-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.gallery-container-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    /* Adjust the percentage based on your design */
+    padding: 15px;
+    background-color: var(--fg-green);
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+}
+
+.gallery-container-name h1 {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    /* Set the color to black or any other color you prefer */
+}
+
+@media only screen and (max-width: 900px) {
+    .gallery-profile {
+        margin-top: 40px;
+        /* Add margin for mobile view */
+    }
+}
